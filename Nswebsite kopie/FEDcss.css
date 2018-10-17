@@ -1,0 +1,123 @@
+body {
+    font-family: "FreeSet", "helvetica";
+    color: #00337f;
+    background-color: #e6e6e9;
+
+}
+
+button {
+    width: 10em;
+    background-color: #3476bb;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 0, 5em;
+    border-bottom-style: solid;
+    border-bottom-color: #00337f;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #00337f;
+
+
+}
+
+.aanmelden {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+
+
+}
+
+fieldset {
+    background-color: #ffc61e;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: #C5C5CB;
+    width: 100%;
+}
+
+
+
+.kopjes {
+
+    font-size: 2em;
+}
+
+
+h2 {
+    font-size: 2em;
+}
+
+article {
+    background-color: white;
+    padding: 1em;
+    padding-bottom: 3em;
+    border-bottom-style: solid;
+    border-bottom-color: #C5C5CB;
+    width: 20em;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+    margin: auto;
+    margin-top: 2em;
+
+
+
+}
+
+
+
+img {
+    width: calc(100% + 2em);
+    height: 8em;
+    margin-top: -1em;
+    margin-left: -1em;
+
+}
+
+a {
+    color: #3476bb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00337f;
+
+
+}
+
+span {
+    display: flex;
+
+
+}
+
+
+h2 {
+    font-size: 1em;
+}
+
+@media (min-width:40em) {
+    section div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width:65em) {
+    section div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
