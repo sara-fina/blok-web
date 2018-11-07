@@ -1,7 +1,8 @@
 body {
     font-family: "FreeSet", "helvetica";
     color: #00337f;
-   
+    background-color: #e6e6e9;
+
 
 
 }
@@ -10,7 +11,7 @@ body {
     background-image: url(CSS/Bodyachtergrond-100.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #e6e6e9;
+
 
 }
 
@@ -18,8 +19,20 @@ body {
     background-image: url(CSS/bodyachtergrond2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
+
+
+}
+
+legend {
+    font-size: 3em;
+    background-color:
+}
+
+.gif {
+    margin-top: 1em;
+    margin-left: -0.5em;
+    width: 90em;
+    height: 100em;
 }
 
 img {
@@ -27,9 +40,6 @@ img {
     height: 1.5em;
     margin: auto;
 }
-
-
-
 
 button {
     width: 10em;
@@ -39,7 +49,6 @@ button {
     margin: 5px 0;
     border: none;
     cursor: pointer;
-    font-size: 0, 5em;
     border-bottom-style: solid;
     border-bottom-color: #00337f;
     transition: 0.5s;
@@ -50,7 +59,6 @@ button:hover {
 
 
 }
-
 
 
 .aanmelden {
@@ -65,28 +73,29 @@ button:hover {
 
 }
 
-.firstfieldset{
-    background-color: #ffc61e;
+.firstfieldset {
     border-style: none;
-    border-bottom-style: solid;
-    border-bottom-color: #C5C5CB;
     width: 90%;
     margin: auto;
     margin-top: 20em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
+
 
 .secondfieldset {
     background-color: #ffc61e;
     border-style: none;
-    border-bottom-style: solid;
-    border-bottom-color: #C5C5CB;
     width: 60%;
     margin: auto;
     margin-top: 5em;
-   
-    
-   
+
+
+}
+
+form {
+    background-color: #ffc61e;
+    border-bottom-color: #C5C5CB;
+    border-bottom-style: solid;
 }
 
 h2 {
@@ -107,7 +116,6 @@ article {
 }
 
 
-
 .verhalen img {
     width: calc(100% + 2em);
     height: 8em;
@@ -116,22 +124,96 @@ article {
 
 }
 
+.downloads img {
+    width: calc(100% + 2em);
+    height: 8em;
+    margin-top: -1em;
+    margin-left: -1em;
+
+}
+
+.downloads h2 {
+    margin-top: 2.5em;
+    font-size: 2em;
+}
+
+#hartje {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje2 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje3 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje4 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje5 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje6 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje7 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje8 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
+#hartje9 {
+    height: 2.5em;
+    width: 2.5em;
+    margin-left: 16em;
+    margin-bottom: -3em;
+
+}
+
 a {
-    color: #3476bb;
     text-decoration: none;
+    font-size: 0, 2em;
 }
 
-a:hover {
-    color: #00337f;
-
-
-}
-
-span {
-    display: flex;
-
-
-}
 
 
 h2 {
@@ -189,3 +271,29 @@ input:invalid {
     border: 4px solid red;
 }
 
+.input1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.zoekknop{
+    width: 10em;
+    background-color: #3476bb;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-bottom-style: solid;
+    border-bottom-color: #00337f;
+    transition: 0.5s;
+    margin: auto;
+    display: flex;
+    margin-top: 5em;
+    
+}
