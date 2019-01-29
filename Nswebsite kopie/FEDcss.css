@@ -1,299 +1,473 @@
 body {
-    font-family: "FreeSet", "helvetica";
-    color: #00337f;
-    background-color: #e6e6e9;
+	font-family: "FreeSet", "helvetica";
+	color: #00337f;
+	background-color: #e6e6e9;
 
 
 
 }
 
 #firstbody {
-    background-image: url(CSS/Bodyachtergrond-100.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+	background-image: url(CSS/Bodyachtergrond-100.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
 
 
 }
 
 #secondbody {
-    background-image: url(CSS/bodyachtergrond2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(CSS/bodyachtergrond2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 
 
 }
+
+.active {
+    visibility:hidden;
+    position: absolute;
+	
+}
+
+.gif img{
+	width: 10em;
+	height: 5em;
+}
+
 
 legend {
-    font-size: 3em;
-    background-color:
+	font-size: 3em;
+	background-color:
 }
 
-.gif {
-    margin-top: 1em;
-    margin-left: -0.5em;
-    width: 90em;
-    height: 100em;
+.verhaal2{
+	margin-top: 1em;
+	margin-left: -0.5em;
+	width: 100%;
+	height: 100%;
 }
 
+.gif1 {
+	margin-top: 1em;
+	margin-left: -0.5em;
+	width: 105%;
+	height: 100%;
+	
+}
+
+.gif2 {
+	margin-top: 1em;
+	margin-left: -0.5em;
+	width: 105%;
+	height: 100%;
+	display: none;
+}
+
+@media only screen and (max-width: 500px){ 
+   .gif1{
+     display: none;
+   }
+	.gif2{
+	display: block;
+	}
+}
 img {
-    width: 3.5em;
-    height: 1.5em;
-    margin: auto;
+	width: 3.5em;
+	height: 1.5em;
+	margin: auto;
 }
 
-button {
-    width: 10em;
-    background-color: #3476bb;
-    color: white;
-    padding: 10px 10px;
-    margin: 5px 0;
-    border: none;
-    cursor: pointer;
-    border-bottom-style: solid;
-    border-bottom-color: #00337f;
-    transition: 0.5s;
+.uitklap{
+	margin: 70px 100px;
+
+}
+
+
+button,
+article > a {
+	width: 10em;
+	background-color: #3476bb;
+	color: white;
+	padding: 10px 10px;
+	margin: 5px 0;
+	border: none;
+	cursor: pointer;
+	border-bottom-style: solid;
+	border-bottom-color: #00337f;
+	transition: 0.5s;
+	font-size: .8em;
 }
 
 button:hover {
-    background-color: #00337f;
+	background-color: #00337f;
 
 
+}
+
+.gif button{
+		background-color:  #e6e6e9;
+		border-bottom-color:#e6e6e9 ;
+}
+
+.gif button:hover{
+		background-color:  #e6e6e9;
+		border-bottom-color:#e6e6e9 ;
+}
+.download {
+	margin-left:1em;
+	width: 10em;
+	height: 5em;
 }
 
 
 .aanmelden {
-    width: 100%;
-    padding: 10px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    box-sizing: border-box;
+	width: 100%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	box-sizing: border-box;
 
 
 }
 
 .firstfieldset {
-    border-style: none;
-    width: 90%;
-    margin: auto;
-    margin-top: 20em;
-    margin-bottom: 1em;
+	border-style: none;
+	width: 90%;
+	margin: auto;
+	margin-top: 20em;
+	margin-bottom: 1em;
 }
 
 
 .secondfieldset {
-    background-color: #ffc61e;
-    border-style: none;
-    width: 60%;
-    margin: auto;
-    margin-top: 5em;
+	background-color: #ffc61e;
+	border-style: none;
+	width: 60%;
+	margin: auto;
+	margin-top: 20em;
+	margin-bottom: 1em;
+
+
+
+}
+
+.thirdfieldset {
+	background-color: #ffc61e;
+	border-style: none;
+	margin: auto;
 
 
 }
 
 form {
-    background-color: #ffc61e;
-    border-bottom-color: #C5C5CB;
-    border-bottom-style: solid;
+	background-color: #ffc61e;
+	border-bottom-color: #C5C5CB;
+	border-bottom-style: solid;
 }
 
 h2 {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 article {
-    background-color: white;
-    padding: 1em;
-    padding-bottom: 3em;
-    border-bottom-style: solid;
-    border-bottom-color: #C5C5CB;
-    width: 20em;
-    box-sizing: border-box;
-    margin-bottom: 3em;
-    margin: auto;
-    margin-top: 2em;
+	background-color: white;
+	padding: 1em;
+	padding-bottom: 3em;
+	border-bottom-style: solid;
+	border-bottom-color: #C5C5CB;
+	width: 20em;
+	box-sizing: border-box;
+	margin-bottom: 3em;
+	margin: auto;
+	margin-top: 2em;
 }
 
 
 .verhalen img {
-    width: calc(100% + 2em);
-    height: 8em;
-    margin-top: -1em;
-    margin-left: -1em;
+	width: calc(100% + 2em);
+	height: 8em;
+	margin-top: -1em;
+	margin-left: -1em;
 
 }
 
 .downloads img {
-    width: calc(100% + 2em);
-    height: 8em;
-    margin-top: -1em;
-    margin-left: -1em;
+	width: calc(100% + 2em);
+	height: 8em;
+	margin-top: -1em;
+	margin-left: -1em;
 
 }
 
 .downloads h2 {
-    margin-top: 2.5em;
-    font-size: 2em;
+	margin-top: 2.5em;
+	font-size: 2em;
 }
 
 #hartje {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
+}
+
+#hartje:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
+	
 }
 
 #hartje2 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
 }
+
+#hartje2:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
+}
+
 
 #hartje3 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
 }
 
+#hartje3:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
+}
 #hartje4 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
+}
+
+#hartje4:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
 }
 
 #hartje5 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
+}
+
+#hartje5:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
 }
 
 #hartje6 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
+}
+
+#hartje6:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
 }
 
 #hartje7 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
+}
+
+#hartje7:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
 }
 
 #hartje8 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
+}
+
+#hartje8:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
 }
 
 #hartje9 {
-    height: 2.5em;
-    width: 2.5em;
-    margin-left: 16em;
-    margin-bottom: -3em;
+	margin-left: 16em;
+	margin-bottom: -3em;
+	height: 2em;
+	width: 2em;
+	
 
 }
 
+#hartje9:hover{
+	filter: hue-rotate(115deg);
+	transform: scale(1.1); 
+}
 a {
-    text-decoration: none;
-    font-size: 0, 2em;
+	text-decoration: none;
+	font-size: 0, 2em;
 }
 
 
 
 h2 {
-    font-size: 1em;
+	font-size: 1em;
 }
 
 @media (min-width:40em) {
-    section div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-    }
+	section div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+	}
 }
 
 
 @media (min-width:65em) {
-    section div {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-    }
+	section div {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		justify-content: center;
+	}
 }
 
+
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    border-bottom-style: solid;
-    border-bottom-color: #C5C5CB;
-    margin-bottom: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	border-bottom-style: solid;
+	border-bottom-color: #C5C5CB;
+	margin-bottom: 100px;
 
 }
 
 nav ul {
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-left: auto;
 }
 
 
 
 nav ul li:first-child {
-    justify-content: flex-start;
-    margin-right: auto;
-    padding: 0;
+	justify-content: flex-start;
+	margin-right: auto;
+	padding: 0;
 
 }
 
 input:invalid {
-    border: 4px solid red;
+	border: 4px solid red;
 }
 
 .input1 {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .input2 {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
 }
 
-.zoekknop{
-    width: 10em;
-    background-color: #3476bb;
-    color: white;
-    padding: 10px 10px;
-    border: none;
-    cursor: pointer;
-    border-bottom-style: solid;
-    border-bottom-color: #00337f;
-    transition: 0.5s;
-    margin: auto;
-    display: flex;
-    margin-top: 5em;
-    
+.zoekknop {
+	width: 10em;
+	background-color: #3476bb;
+	color: white;
+	padding: 10px 10px;
+	border: none;
+	cursor: pointer;
+	border-bottom-style: solid;
+	border-bottom-color: #00337f;
+	transition: 0.5s;
+	margin: auto;
+	display: flex;
+	margin-top: 5em;
+
 }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.sterretjes {
+	float: left;
+	height: 46px;
+	padding: 0 10px;
+}
+
+.sterretjes:not(:checked) > input {
+	position: absolute;
+	top: -9999px;
+}
+
+.sterretjes:not(:checked) > label {
+	float: right;
+	width: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: 30px;
+	color: #ccc;
+}
+
+.sterretjes:not(:checked) > label:before {
+	content: '★';
+}
+
+.sterretjes > input:checked ~ label {
+	color: #213a72;
+}
+
+.sterretjes:not(:checked) > label:hover,
+.sterretjes:not(:checked) > label:hover ~ label {
+	color: #416baa;
+}
+
+.sterretjes > input:checked + label:hover,
+.sterretjes > input:checked + label:hover ~ label,
+.sterretjes > input:checked ~ label:hover,
+.sterretjes > input:checked ~ label:hover ~ label,
+.sterretjes > label:hover ~ input:checked ~ label {
+	color: #628fc4;
+}
+
+//*https://codepen.io/tammykimkim/pen/yegZRw Bron:sterretjes*//
+

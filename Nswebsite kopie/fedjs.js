@@ -2,32 +2,22 @@
 /*eslint-env browser*/
 /*eslint 'no-console': 0*/
 
+var zoekVerhaal = document.querySelector('.uitklap');
 
 
-var statusHartjeicoon;
-statusHartjeicoon= 'leeg';
-var hartjeicoon = document.querySelector('img#hartje');
-console.log(hartjeicoon);
 
-hartjeicoon.alt = 'hartje';
-hartjeicoon.src = 'fotos/hartjeicon.png';
+var form = document.querySelector('.formuitklap');
 
-function Hartje() {
-    if (statusHartjeicoon == 'leeg')
 
-    {
-        hartjeicoon.src = 'fotos/hartjeicon.png';
-        statusHartjeicoon = 'vol';
-        hartjeicoon.alt= 'vol';
-    }
-    else{
-        hartjeicoon.src = 'fotos/hartje2.png';
-        statusHartjeicoon = 'leeg';
-        hartjeicoon.alt = 'leeg';
-    
-    }
-    
+//console.log(formulier);
+
+function openUitklap() { form.classList.toggle('active');
+
 }
 
-hartjeicoon.addEventListener('click', Hartje);
+zoekVerhaal.addEventListener('click', openUitklap);
+
+
+
+
 
